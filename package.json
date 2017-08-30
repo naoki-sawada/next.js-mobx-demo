@@ -1,0 +1,22 @@
+{
+  "name": "next.js-mobx-demo",
+  "version": "0.0.1",
+  "description": "This is the sample code of next.js and MobX",
+  "main": "pages/index.js",
+  "author": "Naoki Sawada",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "mobx-react": "^4.2.2",
+    "next": "^3.1.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-decorators-legacy": "^1.3.4"
+  }
+}
